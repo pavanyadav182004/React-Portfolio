@@ -1,4 +1,4 @@
-import heroPdf from "../assets/Pavan.pdf"
+// import heroPdf from "../assets/Pavan.pdf"
 import heroImg from "../assets/pavan_yadav.png"
 import { heroIcons } from "../Constent/data"
 import { BackgroundGradient } from "./ui/Background-gradient"
@@ -47,7 +47,7 @@ export default function Hero() {
 
                    {/* btn weapper */}
                    <motion.div variants={fadeInUp} className="mt-10 flex items-center justify-center  flex-wrap gap-5">
-                <a href={heroPdf}>  <Button label='Download CV' classes='primary-btn' icon/></a>
+                <a href=  "./pavan.pdf">  <Button label='Download CV' classes='primary-btn' icon/></a>
                    <Button label='Lets Collaborate' classes='secondary-btn'/>
                    </motion.div>
                    
