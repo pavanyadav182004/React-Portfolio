@@ -2,6 +2,7 @@ import fitness from "../images/fitness.png"
 import portfolio from "../images/portfolio.png"
 import {
   RiFacebookBoxFill,
+
   RiGithubFill,
   RiLinkedinFill,
 } from "@remixicon/react";
@@ -125,12 +126,14 @@ export const ProjectsItems = [
     id: 1,
     title: "Fitness And Health Style",
     src: fitness,
+    href:"https://pavanyadav182004.github.io/Fitness/",
     text: "Fitness means keeping your body and mind healthy, strong, and active.",
   },
   {
     id: 2,
     title: "Porfolio",
     src: portfolio,
+    href:"https://pavanyadav182004.github.io/my_portfolio/",
     text: "HTML CSS Js",
   },
   {

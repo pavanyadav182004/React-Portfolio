@@ -30,7 +30,7 @@ export default function Contact()
                     {contactItems.map((item)=>(
                         <motion.li  variants={fadeInUp} key={item.id} className="flex items-center gap-1.5">
                             <p className="text-white font-semibold">{item.label}</p>
-                            <a href="#">{item.link}</a>
+                            <a href="">{item.link}</a>
                         </motion.li>
                     ))}
                   </motion.ul>
@@ -38,10 +38,10 @@ export default function Contact()
                   {/* Social Profiles */}
                   <motion.div variants={fadeInUp} className="flex items-center gap-2 mt-6">
                     <button  className="hover:text-neutral-300 transition-colors">
-                        <RiLinkedinBoxFill size={30} />
+                       <a href=""> <RiLinkedinBoxFill size={30} /></a>
                     </button>
                     <button  className="hover:text-neutral-300 transition-colors">
-                     <a href="https://github.com/">   <RiGithubFill size={30}/></a>
+                     <a href="https://github.com/pavanyadav182004">   <RiGithubFill size={30}/></a>
                     </button>
                   </motion.div>
                 </div>
