@@ -41,7 +41,7 @@ export default function Hero() {
                    
                    <motion.div variants={fadeInUp} className="flex items-center justify-center gap-5">
                     {heroIcons.map((icon)=>(
-                        <a href="https://github.com/" target="_blank" className="hover:text-indigo-400 transition-colors"><icon.icon size={30}/></a>
+                        <a href="https://github.com/pavanyadav182004" target="_blank" className="hover:text-indigo-400 transition-colors"><icon.icon size={30}/></a>
                    ))}
                    </motion.div>
 
