@@ -38,7 +38,7 @@ export default function Contact()
                   {/* Social Profiles */}
                   <motion.div variants={fadeInUp} className="flex items-center gap-2 mt-6">
                     <button  className="hover:text-neutral-300 transition-colors">
-                       <a href=""> <RiLinkedinBoxFill size={30} /></a>
+                       <a href="#"> <RiLinkedinBoxFill size={30} /></a>
                     </button>
                     <button  className="hover:text-neutral-300 transition-colors">
                      <a href="https://github.com/pavanyadav182004">   <RiGithubFill size={30}/></a>

@@ -1,5 +1,6 @@
 import fitness from "../images/fitness.png"
 import portfolio from "../images/portfolio.png"
+import Food from "../images/Food Delevery.png"
 import {
   RiFacebookBoxFill,
 
@@ -77,27 +78,27 @@ export const aboutItems = [
 ];
 
 export const ResumeItems = [
-  {
-    id: 1,
-    title: "Experience",
-    list: [
-      {
-        role: "Senior Frontend Developer",
-        label: "TechCorp",
-        time: "2022-Present",
-      },
-      {
-        label: "StartupXYZ",
-        role: "Frontend Developer",
-        time: "2020-2022",
-      },
-      {
-        label: "WebAgency",
-        role: "Junior Developer",
-        time: "2019-2020",
-      },
-    ],
-  },
+  // {
+  //   id: 1,
+  //   title: "Experience",
+  //   list: [
+  //     {
+  //       role: "Senior Frontend Developer",
+  //       label: "TechCorp",
+  //       time: "2026-Present",
+  //     },
+  //     {
+  //       label: "Fresher",
+  //       role: "Frontend Developer",
+  //       time: "....",
+  //     },
+  //     {
+  //       label: "",
+  //       role: "Junior Developer",
+  //       time: "2019-2020",
+  //     },
+  //   ],
+  // },
   {
     id: 2,
     title: "Education",
@@ -138,16 +139,12 @@ export const ProjectsItems = [
   },
   {
     id: 3,
-    title: "Porfolio 3",
-    src: "/images/portfolio-3.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
-  },
-  {
-    id: 4,
-    title: "Porfolio 4",
-    src: "/images/portfolio-4.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus asperiores, quia adipisci repellendus",
-  },
+    title: "Food Delevery App",
+    src: Food,
+    href:"https://food-delivery-mu-mauve.vercel.app/",
+    text: "The Food Delivery App is a modern and user-friendly web application designed to make ordering food quick, easy, and convenient.",
+  }
+ 
 ];
 
 export const contactItems = [
