@@ -151,7 +151,7 @@ export const ProjectsItems = [
     title: "Hotel Booking App",
     src: Hotal,
     href:"https://hotel-booking-v17a.vercel.app/",
-    text: "",
+    text: "Hotel Booking App",
   }
  
 ];
