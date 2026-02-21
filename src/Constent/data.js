@@ -1,6 +1,7 @@
 import fitness from "../images/fitness.png"
 import portfolio from "../images/portfolio.png"
 import Food from "../images/Food Delevery.png"
+import Hotal from "../images/Hotel.png"
 import {
   RiFacebookBoxFill,
 
@@ -143,6 +144,14 @@ export const ProjectsItems = [
     src: Food,
     href:"https://food-delivery-mu-mauve.vercel.app/",
     text: "The Food Delivery App is a modern and user-friendly web application designed to make ordering food quick, easy, and convenient.",
+  },
+
+   {
+    id: 3,
+    title: "Hotel Booking App",
+    src: Hotal,
+    href:"https://hotel-booking-v17a.vercel.app/",
+    text: "",
   }
  
 ];
